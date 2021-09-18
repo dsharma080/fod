@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FOD</folder>
+	<filename>DSC_0553.JPG</filename>
+	<path>/Users/deepaksharma/personal/sk/orig_images/DSC_0553.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>298</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ring</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>114</ymin>
+			<xmax>265</xmax>
+			<ymax>212</ymax>
+		</bndbox>
+	</object>
+</annotation>

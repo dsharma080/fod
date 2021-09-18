@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FOD</folder>
+	<filename>DSC_0554.JPG</filename>
+	<path>/Users/deepaksharma/personal/sk/orig_images/DSC_0554.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>298</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>142</xmin>
+			<ymin>65</ymin>
+			<xmax>321</xmax>
+			<ymax>239</ymax>
+		</bndbox>
+	</object>
+</annotation>

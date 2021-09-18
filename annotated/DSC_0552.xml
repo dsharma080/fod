@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FOD</folder>
+	<filename>DSC_0552.JPG</filename>
+	<path>/Users/deepaksharma/personal/sk/orig_images/DSC_0552.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>298</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bolt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>200</xmin>
+			<ymin>128</ymin>
+			<xmax>243</xmax>
+			<ymax>172</ymax>
+		</bndbox>
+	</object>
+</annotation>
