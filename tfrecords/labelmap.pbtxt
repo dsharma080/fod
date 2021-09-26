@@ -1,14 +1,55 @@
 item {
   id: 1
-  name: 'bolt'
+  name: 'NUT(AC)'
 }
 
 item {
   id: 2
-  name: 'thread'
+  name: 'METALIC WASHER'
 }
 
 item {
   id: 3
-  name: 'ring'
+  name: 'WIRE PIECE'
 }
+
+item {
+  id: 4
+  name: 'NUT (MT)'
+}
+
+item {
+  id: 5
+  name: 'METAL STRIP'
+}
+
+item {
+  id: 6
+  name: 'METAL WIRE'
+}
+
+item {
+  id: 7
+  name: 'METAL PIECE'
+}
+
+item {
+  id: 8
+  name: 'RF CONNECTOR'
+}
+
+item {
+  id: 9
+  name: 'BOLT'
+}
+
+item {
+  id: 10
+  name: 'METAL SPRING'
+}
+
+item {
+  id: 11
+  name: 'NUT BOLT'
+}
+

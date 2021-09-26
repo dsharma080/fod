@@ -1,7 +1,7 @@
 <annotation>
 	<folder>FOD</folder>
 	<filename>DSC_0550.JPG</filename>
-	<path>/Users/deepaksharma/personal/sk/orig_images/DSC_0550.JPG</path>
+	<path>C:\Users\sandeep\labelImg\FOD\FOD\DSC_0550.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>bolt</name>
+		<name>NUT(AC)</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>204</xmin>
+			<xmin>206</xmin>
 			<ymin>114</ymin>
-			<xmax>252</xmax>
-			<ymax>165</ymax>
+			<xmax>249</xmax>
+			<ymax>166</ymax>
 		</bndbox>
 	</object>
 </annotation>

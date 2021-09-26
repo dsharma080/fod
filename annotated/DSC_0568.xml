@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FOD</folder>
+	<filename>DSC_0568.JPG</filename>
+	<path>C:\Users\sandeep\labelImg\FOD\FOD\DSC_0568.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>298</width>
+		<height>448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>BOLT</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>208</ymin>
+			<xmax>167</xmax>
+			<ymax>246</ymax>
+		</bndbox>
+	</object>
+</annotation>

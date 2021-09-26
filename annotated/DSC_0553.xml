@@ -1,7 +1,7 @@
 <annotation>
 	<folder>FOD</folder>
 	<filename>DSC_0553.JPG</filename>
-	<path>/Users/deepaksharma/personal/sk/orig_images/DSC_0553.JPG</path>
+	<path>C:\Users\sandeep\labelImg\FOD\FOD\DSC_0553.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ring</name>
+		<name>METALIC WASHER</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>169</xmin>
-			<ymin>114</ymin>
-			<xmax>265</xmax>
-			<ymax>212</ymax>
+			<xmin>173</xmin>
+			<ymin>118</ymin>
+			<xmax>262</xmax>
+			<ymax>209</ymax>
 		</bndbox>
 	</object>
 </annotation>
