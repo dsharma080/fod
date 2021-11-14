@@ -1,5 +1,25 @@
 item {
   id: 1
-  name: 'nut'
+  name: 'NUT'
+}
+
+item {
+  id: 2
+  name: 'WIRE'
+}
+
+item {
+  id: 3
+  name: 'BOLT'
+}
+
+item {
+  id: 4
+  name: 'METAL'
+}
+
+item {
+  id: 5
+  name: 'UKF'
 }
 
