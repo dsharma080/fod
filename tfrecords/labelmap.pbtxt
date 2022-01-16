@@ -1,25 +1,39 @@
 item {
   id: 1
-  name: 'NUT'
+  name: 'BoltP'
 }
 
 item {
   id: 2
-  name: 'WIRE'
+  name: 'MetalP'
 }
 
 item {
   id: 3
-  name: 'BOLT'
+  name: 'Nut'
 }
 
 item {
   id: 4
-  name: 'METAL'
+  name: 'NutH'
 }
 
 item {
   id: 5
-  name: 'UKF'
+  name: 'NutHL'
 }
 
+item {
+  id: 6
+  name: 'NutLL'
+}
+
+item {
+  id: 7
+  name: 'NutP'
+}
+
+item {
+  id: 8
+  name: 'NutSpring'
+}
