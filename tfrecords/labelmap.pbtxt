@@ -8,3 +8,8 @@ item {
   name: 'Nut'
 }
 
+item {
+  id: 3
+  name: 'MetalP'
+}
+
