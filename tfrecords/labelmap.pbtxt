@@ -5,35 +5,6 @@ item {
 
 item {
   id: 2
-  name: 'MetalP'
-}
-
-item {
-  id: 3
   name: 'Nut'
 }
 
-item {
-  id: 4
-  name: 'NutH'
-}
-
-item {
-  id: 5
-  name: 'NutHL'
-}
-
-item {
-  id: 6
-  name: 'NutLL'
-}
-
-item {
-  id: 7
-  name: 'NutP'
-}
-
-item {
-  id: 8
-  name: 'NutSpring'
-}
