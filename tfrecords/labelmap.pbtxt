@@ -3,4 +3,7 @@ item {
   name: 'Nut'
 }
 
-
+item {
+  id: 2
+  name: 'MetalP'
+}
