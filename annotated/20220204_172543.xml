@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nutpic</folder>
+	<filename>20220204_172543.jpg</filename>
+	<path>C:\Users\sandeep\labelImg\Nutpic-20220204T130405Z-001\Nutpic\20220204_172543.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2992</width>
+		<height>2992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>NUT1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1323</xmin>
+			<ymin>1492</ymin>
+			<xmax>1552</xmax>
+			<ymax>1660</ymax>
+		</bndbox>
+	</object>
+</annotation>

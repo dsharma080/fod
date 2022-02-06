@@ -11,7 +11,8 @@ import tensorflow as tf
 from xml.etree import ElementTree as etree
 from object_detection.utils import label_map_util, dataset_util
 
-label_classes_to_filter = sys.argv[2].split(",")
+# usage python models/research/convert_tf.py ~/personal/sk/resized_images ~/personal/sk/new_nut_tagged "NUT1"
+label_classes_to_filter = sys.argv[3].split(",")
 
 def dict_to_tf_example(data,
                        label_map_dict,
@@ -39,7 +40,7 @@ def dict_to_tf_example(data,
     Raises:
       ValueError: if the image pointed to by data['filename'] is not a valid JPEG
     """
-    img_path = "/Users/deepaksharma/personal/sk/orig_images/"+data['path'].split("\\")[-1]
+    img_path = sys.argv[1]+data['path'].split("\\")[-1]
     with tf.io.gfile.GFile(img_path, 'rb') as fid:
         encoded_jpg = fid.read()
     encoded_jpg_io = io.BytesIO(encoded_jpg)
@@ -129,8 +130,8 @@ def convert_to_tfrecords(annotation_dir, label_map_path, train_records_file, val
                 written_cnt+=1 
     print("Total examples written",written_cnt)
 if __name__ == '__main__':
-    train_records_file = "data/train.records"
-    val_records_file = "data/val.records"
-    label_map_path = "data/label_map.pbtxt"
-    annotated_images_dir = sys.argv[1]
+    train_records_file = "data/train.tfrecord"
+    val_records_file = "data/val.tfrecord"
+    label_map_path = "data/labelmap.pbtxt"
+    annotated_images_dir = sys.argv[2]
     convert_to_tfrecords(annotated_images_dir, label_map_path, train_records_file, val_records_file)
